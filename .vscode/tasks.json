@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "configure",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-S", ".", // Source directory, assuming current directory. Adjust if necessary.
+                "-B", "./build" // Build directory. Adjust if necessary.
+            ],
+            "group": "none",
+            "problemMatcher": [],
+            "detail": "Generated task for configuring the project"
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "build" // Adjust the build directory if necessary.
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task for building the project",
+            "dependsOn": ["configure"] // Make build task depend on the configure task
+        }
+    ]
+}

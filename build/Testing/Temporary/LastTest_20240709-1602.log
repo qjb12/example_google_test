@@ -1,0 +1,29 @@
+Start testing: Jul 09 10:36 Pacific Daylight Time
+----------------------------------------------------------
+1/1 Testing: tests
+1/1 Test: tests
+Command: "C:/Users/thebr/google/build/test/tests.exe"
+Directory: C:/Users/thebr/google/build/test
+"tests" start time: Jul 09 10:36 Pacific Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\thebr\google\googletest\googletest\src\gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdditionTest
+[ RUN      ] AdditionTest.HandlesPositiveInput
+[       OK ] AdditionTest.HandlesPositiveInput (0 ms)
+[----------] 1 test from AdditionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"tests" end time: Jul 09 10:36 Pacific Daylight Time
+"tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 09 10:36 Pacific Daylight Time

@@ -1,0 +1,59 @@
+Start testing: Jul 11 10:01 Pacific Daylight Time
+----------------------------------------------------------
+1/1 Testing: tests
+1/1 Test: tests
+Command: "C:/Users/thebr/google/build/test/tests.exe"
+Directory: C:/Users/thebr/google/build/test
+"tests" start time: Jul 11 10:01 Pacific Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\thebr\google\googletest\googletest\src\gtest_main.cc
+[==========] Running 8 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 6 tests from AdditionTest
+[ RUN      ] AdditionTest.HandlesPositiveInput
+[       OK ] AdditionTest.HandlesPositiveInput (0 ms)
+[ RUN      ] AdditionTest.HandlesNegativeInput
+C:\Users\thebr\google\test\test.cpp:13: Failure
+Expected equality of these values:
+  add(-3, -4)
+    Which is: -7
+  -8
+
+[  FAILED  ] AdditionTest.HandlesNegativeInput (1 ms)
+[ RUN      ] AdditionTest.ResultIsNonNegativeWhenInputsAreNonNegative
+[       OK ] AdditionTest.ResultIsNonNegativeWhenInputsAreNonNegative (0 ms)
+[ RUN      ] AdditionTest.AdditionIsCommutative
+[       OK ] AdditionTest.AdditionIsCommutative (0 ms)
+[ RUN      ] AdditionTest.AddingZeroReturnsSameNumber
+[       OK ] AdditionTest.AddingZeroReturnsSameNumber (0 ms)
+[ RUN      ] AdditionTest.ResultIsNotLessThanAnyPositiveInput
+[       OK ] AdditionTest.ResultIsNotLessThanAnyPositiveInput (0 ms)
+[----------] 6 tests from AdditionTest (1 ms total)
+
+[----------] 1 test from EvenTest
+[ RUN      ] EvenTest.ZeroIsEven
+[       OK ] EvenTest.ZeroIsEven (0 ms)
+[----------] 1 test from EvenTest (0 ms total)
+
+[----------] 1 test from DivideTest
+[ RUN      ] DivideTest.HandlesDividingByPositiveNumber
+[       OK ] DivideTest.HandlesDividingByPositiveNumber (0 ms)
+[----------] 1 test from DivideTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 3 test suites ran. (2 ms total)
+[  PASSED  ] 7 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AdditionTest.HandlesNegativeInput
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"tests" end time: Jul 11 10:01 Pacific Daylight Time
+"tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 11 10:01 Pacific Daylight Time
