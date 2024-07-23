@@ -308,8 +308,8 @@ googletest/googletest/CMakeFiles/gtest_main.dir/clean:
 
 # All Build rule for target.
 test/CMakeFiles/tests.dir/all: CMakeFiles/main.dir/all
-test/CMakeFiles/tests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
 test/CMakeFiles/tests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
+test/CMakeFiles/tests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\tests.dir\build.make test/CMakeFiles/tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\tests.dir\build.make test/CMakeFiles/tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\thebr\google\build\CMakeFiles --progress-num=17,18 "Built target tests"
