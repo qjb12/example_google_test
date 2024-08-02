@@ -1,2 +1,2 @@
-C:\msys64\mingw64\bin\ar.exe qc libmain.a CMakeFiles/main.dir/main.cpp.obj CMakeFiles/main.dir/math.cpp.obj CMakeFiles/main.dir/arithmetic.cpp.obj
-C:\msys64\mingw64\bin\ranlib.exe libmain.a
+/usr/bin/ar qc libmain.a CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/math.cpp.o CMakeFiles/main.dir/arithmetic.cpp.o
+/usr/bin/ranlib libmain.a

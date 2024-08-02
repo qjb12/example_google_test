@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240802-0339-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.22.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="SWIFT"
+	OSRelease="5.15.153.1-microsoft-standard-WSL2"
+	OSVersion="#1 SMP Fri Mar 29 23:14:13 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="96"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="1024"
+	TotalPhysicalMemory="3666"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="1996.2"
+	>
+	<Testing>
+		<StartDateTime>Aug 01 20:56 PDT</StartDateTime>
+		<StartTestTime>1722571008</StartTestTime>
+		<TestList>
+			<Test>./test/tests</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>tests</Name>
+			<Path>./test</Path>
+			<FullName>./test/tests</FullName>
+			<FullCommandLine>/home/qjb12/google/build/test/tests</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00483706</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/qjb12/google/build/test/tests</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVVdtu4jAQffdXzCNITSh7X6R9yG7pLtqKVkBVaRFamWSaeOXYqS+0/fvNhQBuUxL8kMTjc2bOjOPxzArBRAwpZaLXh3slUxgkMsXBw7/18N0gljLmuH0Z1ObwU6twEBdffwu6H4Zk+W03VjDb+h6eQwHSlfeP5QS0ZfnbJ0tvN1bwk8s15RUAxYYpKVIUORiNZ7MX4E+HXoMoYoZJschNZAmz2ymUY+Ws+L+oiDjqG6lz2wYnIrMFvBrXv7vAoXcOqe63B5liTPdBGopa1rB4+GGWjYbDEVxSxq1CMn7KMDQYAT5Yypl5BnkPJkGNsKHcoh4RABpFPe/9GXgf+qRQcZewMAGmR+B9zg3eF1JkdhlMrsYXnTS2ZzZDbbmZ6KkUNfMuQVGydaDwwH6kqid4aZdUTyb6h0xTa9qCN+K7hRHxH1RyhsYqoec0xalN16hagr3BOqXY5gq1XiRUBOK566/bgb2T0OlUVWgw0lDeJy5pWB3ZkjPeYMMprK1+UYyJLqau+AZAo76mUF2lXbANi/C1uL29PhelJd+677uKNe11d15rKntXXZO5zlDR5pbnLNXS6r10UzgKbVXtsLsKDxQzSYqGhQ3N2lk70FPV58X/fhzcqt7lH5P/1r1kkCovko/CvfiOXHigqPDdUHlON8F8XjXprxXTd1t3pfoMONPFrbBGLh9HJ3Z3QnI3W/xiPF+Q/zyYjdI=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Aug 01 20:56 PDT</EndDateTime>
+		<EndTestTime>1722571008</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,13 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/primary.dir/arithmetic.cpp.obj"
-  "CMakeFiles/primary.dir/arithmetic.cpp.obj.d"
-  "CMakeFiles/primary.dir/main.cpp.obj"
-  "CMakeFiles/primary.dir/main.cpp.obj.d"
-  "CMakeFiles/primary.dir/math.cpp.obj"
-  "CMakeFiles/primary.dir/math.cpp.obj.d"
-  "libprimary.dll.a"
-  "primary.exe"
-  "primary.exe.manifest"
+  "CMakeFiles/primary.dir/arithmetic.cpp.o"
+  "CMakeFiles/primary.dir/arithmetic.cpp.o.d"
+  "CMakeFiles/primary.dir/main.cpp.o"
+  "CMakeFiles/primary.dir/main.cpp.o.d"
+  "CMakeFiles/primary.dir/math.cpp.o"
+  "CMakeFiles/primary.dir/math.cpp.o.d"
+  "primary"
   "primary.pdb"
 )
 

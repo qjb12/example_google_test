@@ -1,68 +1,57 @@
 [
 {
-  "directory": "C:/Users/thebr/google/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\main.dir\\main.cpp.obj -c C:\\Users\\thebr\\google\\main.cpp",
-  "file": "C:/Users/thebr/google/main.cpp",
-  "output": "CMakeFiles/main.dir/main.cpp.obj"
+  "directory": "/home/qjb12/google/build",
+  "command": "/usr/bin/g++  -I/home/qjb12/google -g -fPIC -std=gnu++11 -o CMakeFiles/main.dir/main.cpp.o -c /home/qjb12/google/main.cpp",
+  "file": "/home/qjb12/google/main.cpp"
 },
 {
-  "directory": "C:/Users/thebr/google/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\main.dir\\math.cpp.obj -c C:\\Users\\thebr\\google\\math.cpp",
-  "file": "C:/Users/thebr/google/math.cpp",
-  "output": "CMakeFiles/main.dir/math.cpp.obj"
+  "directory": "/home/qjb12/google/build",
+  "command": "/usr/bin/g++  -I/home/qjb12/google -g -fPIC -std=gnu++11 -o CMakeFiles/main.dir/math.cpp.o -c /home/qjb12/google/math.cpp",
+  "file": "/home/qjb12/google/math.cpp"
 },
 {
-  "directory": "C:/Users/thebr/google/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\main.dir\\arithmetic.cpp.obj -c C:\\Users\\thebr\\google\\arithmetic.cpp",
-  "file": "C:/Users/thebr/google/arithmetic.cpp",
-  "output": "CMakeFiles/main.dir/arithmetic.cpp.obj"
+  "directory": "/home/qjb12/google/build",
+  "command": "/usr/bin/g++  -I/home/qjb12/google -g -fPIC -std=gnu++11 -o CMakeFiles/main.dir/arithmetic.cpp.o -c /home/qjb12/google/arithmetic.cpp",
+  "file": "/home/qjb12/google/arithmetic.cpp"
 },
 {
-  "directory": "C:/Users/thebr/google/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/primary.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\primary.dir\\main.cpp.obj -c C:\\Users\\thebr\\google\\main.cpp",
-  "file": "C:/Users/thebr/google/main.cpp",
-  "output": "CMakeFiles/primary.dir/main.cpp.obj"
+  "directory": "/home/qjb12/google/build",
+  "command": "/usr/bin/g++  -I/home/qjb12/google -g -fPIE -std=gnu++11 -o CMakeFiles/primary.dir/main.cpp.o -c /home/qjb12/google/main.cpp",
+  "file": "/home/qjb12/google/main.cpp"
 },
 {
-  "directory": "C:/Users/thebr/google/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/primary.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\primary.dir\\math.cpp.obj -c C:\\Users\\thebr\\google\\math.cpp",
-  "file": "C:/Users/thebr/google/math.cpp",
-  "output": "CMakeFiles/primary.dir/math.cpp.obj"
+  "directory": "/home/qjb12/google/build",
+  "command": "/usr/bin/g++  -I/home/qjb12/google -g -fPIE -std=gnu++11 -o CMakeFiles/primary.dir/math.cpp.o -c /home/qjb12/google/math.cpp",
+  "file": "/home/qjb12/google/math.cpp"
 },
 {
-  "directory": "C:/Users/thebr/google/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/primary.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\primary.dir\\arithmetic.cpp.obj -c C:\\Users\\thebr\\google\\arithmetic.cpp",
-  "file": "C:/Users/thebr/google/arithmetic.cpp",
-  "output": "CMakeFiles/primary.dir/arithmetic.cpp.obj"
+  "directory": "/home/qjb12/google/build",
+  "command": "/usr/bin/g++  -I/home/qjb12/google -g -fPIE -std=gnu++11 -o CMakeFiles/primary.dir/arithmetic.cpp.o -c /home/qjb12/google/arithmetic.cpp",
+  "file": "/home/qjb12/google/arithmetic.cpp"
 },
 {
-  "directory": "C:/Users/thebr/google/build/googletest/googlemock",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\thebr\\google\\googletest\\googlemock\\src\\gmock-all.cc",
-  "file": "C:/Users/thebr/google/googletest/googlemock/src/gmock-all.cc",
-  "output": "googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+  "directory": "/home/qjb12/google/build/googletest/googlemock",
+  "command": "/usr/bin/g++  -I/home/qjb12/google/googletest/googlemock/include -I/home/qjb12/google/googletest/googlemock -isystem /home/qjb12/google/googletest/googletest/include -isystem /home/qjb12/google/googletest/googletest -g -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/qjb12/google/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/qjb12/google/googletest/googlemock/src/gmock-all.cc"
 },
 {
-  "directory": "C:/Users/thebr/google/build/googletest/googlemock",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\thebr\\google\\googletest\\googlemock\\src\\gmock_main.cc",
-  "file": "C:/Users/thebr/google/googletest/googlemock/src/gmock_main.cc",
-  "output": "googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+  "directory": "/home/qjb12/google/build/googletest/googlemock",
+  "command": "/usr/bin/g++  -isystem /home/qjb12/google/googletest/googlemock/include -isystem /home/qjb12/google/googletest/googlemock -isystem /home/qjb12/google/googletest/googletest/include -isystem /home/qjb12/google/googletest/googletest -g -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/qjb12/google/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/qjb12/google/googletest/googlemock/src/gmock_main.cc"
 },
 {
-  "directory": "C:/Users/thebr/google/build/googletest/googletest",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\thebr\\google\\googletest\\googletest\\src\\gtest-all.cc",
-  "file": "C:/Users/thebr/google/googletest/googletest/src/gtest-all.cc",
-  "output": "googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+  "directory": "/home/qjb12/google/build/googletest/googletest",
+  "command": "/usr/bin/g++  -I/home/qjb12/google/googletest/googletest/include -I/home/qjb12/google/googletest/googletest -g -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/qjb12/google/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/qjb12/google/googletest/googletest/src/gtest-all.cc"
 },
 {
-  "directory": "C:/Users/thebr/google/build/googletest/googletest",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\thebr\\google\\googletest\\googletest\\src\\gtest_main.cc",
-  "file": "C:/Users/thebr/google/googletest/googletest/src/gtest_main.cc",
-  "output": "googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+  "directory": "/home/qjb12/google/build/googletest/googletest",
+  "command": "/usr/bin/g++  -isystem /home/qjb12/google/googletest/googletest/include -isystem /home/qjb12/google/googletest/googletest -g -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/qjb12/google/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/qjb12/google/googletest/googletest/src/gtest_main.cc"
 },
 {
-  "directory": "C:/Users/thebr/google/build/test",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\tests.dir\\test.cpp.obj -c C:\\Users\\thebr\\google\\test\\test.cpp",
-  "file": "C:/Users/thebr/google/test/test.cpp",
-  "output": "test/CMakeFiles/tests.dir/test.cpp.obj"
+  "directory": "/home/qjb12/google/build/test",
+  "command": "/usr/bin/g++  -I/home/qjb12/google -isystem /home/qjb12/google/googletest/googletest/include -isystem /home/qjb12/google/googletest/googletest -g -fPIE -std=gnu++14 -o CMakeFiles/tests.dir/test.cpp.o -c /home/qjb12/google/test/test.cpp",
+  "file": "/home/qjb12/google/test/test.cpp"
 }
 ]

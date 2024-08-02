@@ -8,15 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/thebr/google/test/test.cpp" "test/CMakeFiles/tests.dir/test.cpp.obj" "gcc" "test/CMakeFiles/tests.dir/test.cpp.obj.d"
+  "/home/qjb12/google/test/test.cpp" "test/CMakeFiles/tests.dir/test.cpp.o" "gcc" "test/CMakeFiles/tests.dir/test.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/qjb12/google/build/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/qjb12/google/build/CMakeFiles/main.dir/DependInfo.cmake"
+  "/home/qjb12/google/build/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: C:/Users/thebr/google
-# Build directory: C:/Users/thebr/google/build
+# Source directory: /home/qjb12/google
+# Build directory: /home/qjb12/google/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
