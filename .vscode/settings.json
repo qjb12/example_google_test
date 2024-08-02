@@ -1,4 +1,4 @@
 {
-    "cmake.sourceDirectory": "C:/Users/thebr/google",
-    "cmake.generator": "MinGW Makefiles"
+    "cmake.sourceDirectory": "/home/qjb12/google",
+    "cmake.generator": "Unix Makefiles"
 }

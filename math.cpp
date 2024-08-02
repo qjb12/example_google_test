@@ -7,7 +7,7 @@ using namespace std;
 
 Algebra::Algebra(string operation) : one(1), two(2), operation(operation) {};
 
-Algebra::calculate()
+int Algebra::calculate()
 {
     if (operation == "add")
     {
